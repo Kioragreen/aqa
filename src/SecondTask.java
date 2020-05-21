@@ -103,7 +103,7 @@ public class SecondTask {
         }
 
         int res = 0;
-        for(int i = 1; i < w.length; i++) {
+        for(int i = 1; i < w.length - 1; i++) {
             res = res + w[i];
         }
 
