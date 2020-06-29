@@ -5,7 +5,7 @@ package FirstTask;
 
 public class Main {
     public static void main(String[] args) {
-        Cat.Body body = new Cat.Body();
-        Dog.Body Body = new Dog.Body();
+        FirstTask.Rat.Body body = new FirstTask.Rat.Body();
+        FirstTask.Mouse.Body Body = new FirstTask.Mouse.Body();
     }
 }

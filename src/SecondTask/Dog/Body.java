@@ -1,7 +1,6 @@
-package Cat;
+package SecondTask.Dog;
 
 public class Body {
     String eyes;
-    int legs;
-
+    int tail;
 }
