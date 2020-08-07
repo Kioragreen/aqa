@@ -10,7 +10,7 @@ public class Bus {
     }
 
 
-    public Bus createBus() {
+    public static Bus createBus() {
         return new Bus();
     }
 
