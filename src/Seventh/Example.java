@@ -21,7 +21,9 @@ public class Example {
     @Override
 
     public boolean equals(Object o) {
-        return this.hashCode() == o.hashCode();
+        if (getClass() != o.getClass()) return false;
+        Example other = (Example) o;
+        return this.first.equals(other.first) && this.last.equals(other.last);
     }
 
     @Override
